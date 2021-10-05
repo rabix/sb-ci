@@ -2,7 +2,7 @@ cwlVersion: v1.0
 class: CommandLineTool
 label: FastQC CWL 1.0
 doc: |-
-  **Note:** This version of this tool is for testing purposes regarding github actions and CI/CD only. Changes vs the public tool are purely to run tests and should't affect functionality, but this version is not supported by SBG in production.
+  **Note:** This version of the FastQC CWL 1.0 tool is for testing purposes regarding github actions and CI/CD only. Changes vs the public tool are purely to run tests and should't affect functionality, but this version is not supported by SBG in production.
 
   **FastQC** reads a set of sequence files and produces a quality control report from each one. These reports consist of a number of different modules, each of which will help identify a different type of potential problem in your data [1].
 

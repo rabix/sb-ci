@@ -2,7 +2,7 @@ cwlVersion: v1.0
 class: Workflow
 label: GATK Best Practice Data Pre-processing 4.1.0.0
 doc: |-
-  **Note:** This version of the workflow is for testing purposes regarding github actions and CI/CD only. Changes vs the public tool are purely to run tests and should't affect functionality, but this version is not supported by SBG in production.
+  **Note:** This version of the GATK Best Practice Data Pre-processing 4.1.0.0 workflow is for testing purposes regarding github actions and CI/CD only. Changes vs the public tool are purely to run tests and should't affect functionality, but this version is not supported by SBG in production.
   
   **BROAD Best Practice Data Pre-processing Workflow 4.1.0.0**  is used to prepare data for variant calling analysis. 
 
