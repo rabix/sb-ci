@@ -1,14 +1,14 @@
-# Local Development and continuous integration for CWL using the SB platform
+# Local Development and Continuous Integration For CWL Using the SB Platform
 
-This repository contains links to code examples to show how to set up testing
-for your CWL that is automatically triggered and run when you make commits to
-your code. It also shows how to set-up automated pushing of updated workflows to
-a Seven Bridges Platform. These processes are also known as continuous
-integration and deployment, respectively. 
+This repository contains code examples to show how to set up testing for your
+CWL that is automatically triggered when you make commits to your code in a
+github repository. It also shows how to set-up automated pushing of updated
+workflows to a Seven Bridges Platform. These processes are also known as
+continuous integration and deployment, respectively. 
 
 This development model of local -> github -> Seven Bridges is geared toward
 advanced users. It enables combining Seven Bridges' interface, CWL execution
-advantages, and scalability with best practices of automated testing and version
+advantages, and scalability with best practices in automated testing and version
 control. This also helps enable collaborative development through git across
 teams all contributing to the same workflows and tools.
 
