@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# This pre-commit hook runs the check-changed.sh script
+# Place it in the .git/hooks directory of the local repository
+
+test_scripts/check-changed.sh

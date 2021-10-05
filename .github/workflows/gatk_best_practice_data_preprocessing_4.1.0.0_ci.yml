@@ -1,0 +1,20 @@
+name: gatk_best_practice_data_preprocessing_4.1.0.0_ci
+
+on:
+  push:
+    branches: main
+    paths:
+    - 'gatk_best_practice_data_preprocessing_4.1.0.0/**'
+
+jobs:
+  update_gatk_best_practice_data_preprocessing_4_1_0_0:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: sbpack push
+      uses: include-dcc/sbpack-action@v0.0.2
+      with:
+        app_name: jeffrey.grover/local-cwl-development-ci-cd-example/broad-best-practice-data-pre-processing-workflow-4-1-0-0
+        workflow_path: gatk_best_practice_data_preprocessing_4.1.0.0/gatk-best-practice-data-preprocessing-4-1-0-0.cwl
+        auth_token: ${{ secrets.SBG_AUTH_TOKEN }}
+        api_endpoint: https://cgc-api.sbgenomics.com/v2

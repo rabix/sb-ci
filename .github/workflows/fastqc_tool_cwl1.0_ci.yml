@@ -1,0 +1,20 @@
+name: fastqc_tool_cwl1.0_ci
+
+on:
+  push:
+    branches: main
+    paths:
+    - 'fastqc_tool_cwl1.0/**'
+
+jobs:
+  update_fastqc_tool_cwl1_0:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: sbpack push
+      uses: include-dcc/sbpack-action@v0.0.2
+      with:
+        app_name: jeffrey.grover/local-cwl-development-ci-cd-example/fastqc-0-11-9
+        workflow_path: fastqc_tool_cwl1.0/fastqc_tool_cwl1.0.cwl
+        auth_token: ${{ secrets.SBG_AUTH_TOKEN }}
+        api_endpoint: https://cgc-api.sbgenomics.com/v2
