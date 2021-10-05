@@ -2,7 +2,7 @@ name: gatk_best_practice_data_preprocessing_4.1.0.0_ci
 
 on:
   push:
-    branches: main
+    branches: master
     paths:
     - 'gatk_best_practice_data_preprocessing_4.1.0.0/**'
 

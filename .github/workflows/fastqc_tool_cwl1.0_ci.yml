@@ -2,7 +2,7 @@ name: fastqc_tool_cwl1.0_ci
 
 on:
   push:
-    branches: main
+    branches: master
     paths:
     - 'fastqc_tool_cwl1.0/**'
 
