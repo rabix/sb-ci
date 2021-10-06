@@ -55,8 +55,8 @@ for later deployment to a Seven Bridges Platform.
 0. Install all required software
 1. Create a project on one of Seven Bridges' platforms
     - [Cancer Genomics Cloud](https://cgc.sbgenomics.com)
-    - [Cavatica](https://pgc-accounts.sbgenomics.com/)
-    - [BioData Catalyst Powered by Seven Bridges](https://accounts.sb.biodatacatalyst.nhlbi.nih.gov/)
+    - [Cavatica](https://cavatica.sbgenomics.com/)
+    - [BioData Catalyst Powered by Seven Bridges](https://platform.sb.biodatacatalyst.nhlbi.nih.gov//)
     - [Seven Bridges Commercial Platform](https://igor.sbgenomics.com)
     - [Seven Bridges EU](https://eu.sbgenomics.com)
 2. Create or copy an app (tools and/or workflows)
